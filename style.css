@@ -28,6 +28,12 @@ ul {
   font-size: 20px;
   gap: 50px;
 }
+ul > li {
+  transition: all .4s ease;
+}
+ul > li:hover{
+  border-bottom: 1px solid #ffff;
+}
 .menu {
   border: none;
   background: initial;
